@@ -1,0 +1,183 @@
+body {
+  text-align: center;
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 140px;
+}
+
+h1 {
+  padding: 30px 0;
+  font-weight: bold;
+  font-size: 38px;
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  font-size: 30px;
+}
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1em;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.medium {
+  font-size: 20px;
+}
+
+.med-large {
+  font-size: 24px;
+}
+
+.large {
+  font-size: 30px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.colouredSection {
+  background-color: grey;
+  padding: 50px 0;
+  margin: auto;
+}
+
+.lightSection {
+  background-color: #dfe2e2;
+  padding: 80px 0;
+}
+
+/* NAVBAR*/
+#navigation-bar {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 120px;
+  display: block;
+  transition: top 0.5s;
+  text-align: left;
+  z-index: 9999;
+}
+
+.swingvasion-logo {
+  height: 100px;
+  position: relative;
+  left: 0.3rem;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  line-height: 1;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.dropdown-item {
+  color: grey;
+}
+
+.last-dropdown-item {
+  padding-bottom: 1rem;
+}
+
+.dropdown-item:hover {
+  background-color: black;
+  color: white;
+}
+
+/* SWINGVASION DETAILS */
+.swingvasion-box {
+  background-color: white;
+  max-width: 60vw;
+  margin: 3rem auto;
+  text-align: start;
+}
+
+.swingvasion-details {
+  max-width: 80%;
+  padding: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* STAFF */
+.teacher-img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+
+/* FOOTER */
+#footer {
+  color: grey;
+}
+
+.social-icon {
+  color: white;
+}
+
+.social-icon:hover {
+  color: #1571fd;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 991px) {
+  body {
+    padding-top: 80px;
+  }
+
+  .swingvasion-logo {
+    height: 4em;
+  }
+
+  #navigation-bar {
+    height: 80px;
+  }
+
+  .navbar-toggler {
+    padding: 0.5rem;
+  }
+  .navbar-toggler-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .dropdown-item {
+    font-size: 1rem;
+  }
+
+  .last-dropdown-item {
+    padding-bottom: 0.25rem;
+  }
+
+  .swingvasion-box {
+    max-width: 100vw;
+  }
+  .swingvasion-details {
+    max-width: 100vw;
+    padding: 1rem;
+  }
+}
