@@ -18,12 +18,44 @@ app.get("/", function (req, res) {
   res.render("home");
 });
 
+app.get("/tickets", function (req, res) {
+  res.render("tickets");
+});
+
 app.get("/schedule", function (req, res) {
   res.render("schedule");
 });
 
+app.get("/staff", function (req, res) {
+  res.render("staff");
+});
+
 app.get("/competition-rules", function (req, res) {
   res.render("competition-rules");
+});
+
+app.get("/venue", function (req, res) {
+  res.render("venue");
+});
+
+app.get("/accommodation", function (req, res) {
+  res.render("accommodation");
+});
+
+app.get("/new-zealand", function (req, res) {
+  res.render("new-zealand");
+});
+
+app.get("/merch", function (req, res) {
+  res.render("merch");
+});
+
+app.get("/private-lessons", function (req, res) {
+  res.render("private-lessons");
+});
+
+app.get("/facebook-frame", function (req, res) {
+  res.render("facebook-frame");
 });
 
 app.get("/code-of-conduct", function (req, res) {
