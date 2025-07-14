@@ -4,8 +4,6 @@ $(document).ready(function () {
   var startingPos = window.pageYOffset;
   var navbarHeight = $("#navigation-bar").outerHeight();
 
-  console.log("Navbar height: " + navbarHeight);
-
   $(window).scroll(function () {
     var currentPos = window.pageYOffset;
 

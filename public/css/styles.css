@@ -2,7 +2,7 @@ body {
   text-align: center;
   background-color: black;
   font-family: "Open Sans", sans-serif;
-  padding-top: 140px;
+  padding-top: 120px;
 }
 
 h1 {
@@ -39,11 +39,6 @@ p {
 
 .large {
   font-size: 30px;
-}
-
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
 }
 
 .colouredSection {
@@ -130,6 +125,13 @@ p {
 /* FOOTER */
 #footer {
   color: grey;
+  margin: auto;
+}
+
+.footer-component {
+  background-color: grey;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .social-icon {
@@ -171,6 +173,10 @@ p {
 
   .last-dropdown-item {
     padding-bottom: 0.25rem;
+  }
+
+  .lightSection {
+    padding: 20px 0;
   }
 
   .swingvasion-box {
