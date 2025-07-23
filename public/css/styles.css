@@ -101,10 +101,15 @@ p {
 }
 
 /* SWINGVASION DETAILS */
+.title {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .swingvasion-box {
   background-color: white;
   max-width: 60vw;
-  margin: 3rem auto;
+  margin: 2rem auto;
   text-align: start;
 }
 
