@@ -192,3 +192,11 @@ p {
     padding: 1rem;
   }
 }
+
+.centered-hr {
+  display: block;
+  margin: 30px auto 10px auto;
+  border: none;
+  border-top: 2px solid grey;
+  width: 200px;
+}

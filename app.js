@@ -18,8 +18,8 @@ app.get("/", function (req, res) {
   res.render("home");
 });
 
-app.get("/tickets", function (req, res) {
-  res.render("tickets");
+app.get("/event-passes", function (req, res) {
+  res.render("event-passes");
 });
 
 app.get("/schedule", function (req, res) {
@@ -30,8 +30,8 @@ app.get("/staff", function (req, res) {
   res.render("staff");
 });
 
-app.get("/competition-rules", function (req, res) {
-  res.render("competition-rules");
+app.get("/competition", function (req, res) {
+  res.render("competition");
 });
 
 app.get("/venue", function (req, res) {
