@@ -62,10 +62,6 @@ app.get("/code-of-conduct", function (req, res) {
   res.render("etiquette-code-of-conduct");
 });
 
-app.get("/terms-and-conditions", function (req, res) {
-  res.render("terms-and-conditions");
-});
-
 app.get("/contact-us", function (req, res) {
   res.render("contact-us");
 });
