@@ -2,7 +2,7 @@ body {
   text-align: center;
   background-color: black;
   font-family: "Open Sans", sans-serif;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 h1 {
@@ -11,6 +11,24 @@ h1 {
   font-size: 38px;
   letter-spacing: 2px;
   font-family: "Open Sans", sans-serif;
+}
+
+/* MAP */
+.map {
+  height: 30vw;
+  width: 55vw;
+  border: 40px solid grey;
+}
+
+.responsive-map {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  min-height: 00px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  display: block;
+  margin: 0 auto;
 }
 
 h3 {
@@ -66,7 +84,7 @@ p {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 120px;
+  height: 100px;
   display: block;
   transition: top 0.5s;
   text-align: left;
@@ -74,7 +92,7 @@ p {
 }
 
 .swingvasion-logo {
-  height: 100px;
+  height: 80px;
   position: relative;
   left: 0.3rem;
 }
