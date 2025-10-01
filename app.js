@@ -34,16 +34,20 @@ app.get("/competition", function (req, res) {
   res.render("competition");
 });
 
-app.get("/venue", function (req, res) {
-  res.render("venue");
+app.get("/event-location", function (req, res) {
+  res.render("event-location");
 });
 
-app.get("/accommodation", function (req, res) {
-  res.render("accommodation");
+app.get("/getting-to-wellington", function (req, res) {
+  res.render("getting-to-wellington");
 });
 
-app.get("/new-zealand", function (req, res) {
-  res.render("new-zealand");
+app.get("/places-to-explore", function (req, res) {
+  res.render("places-to-explore");
+});
+
+app.get("/southern-lights-swing", function (req, res) {
+  res.render("southern-lights-swing");
 });
 
 app.get("/merch", function (req, res) {
