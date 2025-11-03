@@ -66,6 +66,10 @@ app.get("/code-of-conduct", function (req, res) {
   res.render("etiquette-code-of-conduct");
 });
 
+app.get("/photo-video-policy", function (req, res) {
+  res.render("photos-videos");
+});
+
 app.get("/contact-us", function (req, res) {
   res.render("contact-us");
 });
