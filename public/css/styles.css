@@ -211,11 +211,15 @@ p {
   grid-row: 1 / 2;
 }
 .staff-cell-4 {
-  grid-column: 1 / 3;
+  grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
 .staff-cell-5 {
-  grid-column: 3 / 5;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+}
+.staff-cell-6 {
+  grid-column: 4 / 5;
   grid-row: 2 / 3;
 }
 
