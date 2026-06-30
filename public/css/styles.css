@@ -149,7 +149,7 @@ p {
 /* STAFF */
 .staff-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(2, 280px);
   gap: 36px;
   margin-top: 32px;
@@ -180,7 +180,7 @@ p {
 
 .staff-cell.horizontal .staff-img {
   width: 100%;
-  height: 220px;
+  height: 100%;
   aspect-ratio: 5/3;
   object-fit: cover;
   max-width: 100%;
@@ -199,28 +199,28 @@ p {
 }
 
 .staff-cell-1 {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
 }
 .staff-cell-2 {
-  grid-column: 2 / 4;
+  grid-column: 1 / 3;
   grid-row: 1 / 2;
 }
 .staff-cell-3 {
-  grid-column: 4 / 5;
+  grid-column: 3 / 5;
   grid-row: 1 / 2;
 }
 .staff-cell-4 {
-  grid-column: 1 / 2;
+  grid-column: 3 / 5;
   grid-row: 2 / 3;
 }
 .staff-cell-5 {
-  grid-column: 2 / 4;
+  grid-column: 5 / 7;
   grid-row: 2 / 3;
 }
 .staff-cell-6 {
-  grid-column: 4 / 5;
-  grid-row: 2 / 3;
+  grid-column: 5 / 7;
+  grid-row: 1 / 2;
 }
 
 .staff-4col-grid {
