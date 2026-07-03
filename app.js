@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 app.use(
   bodyParser.urlencoded({
     extended: true,
-  })
+  }),
 );
 app.use(bodyParser.json());
 app.use(express.static("public"));
@@ -46,8 +46,8 @@ app.get("/places-to-explore", function (req, res) {
   res.render("places-to-explore");
 });
 
-app.get("/southern-lights-swing", function (req, res) {
-  res.render("southern-lights-swing");
+app.get("/extend-your-trip", function (req, res) {
+  res.render("extend-your-trip");
 });
 
 app.get("/merch", function (req, res) {
