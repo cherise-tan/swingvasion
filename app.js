@@ -46,8 +46,8 @@ app.get("/places-to-explore", function (req, res) {
   res.render("places-to-explore");
 });
 
-app.get("/extend-your-trip", function (req, res) {
-  res.render("extend-your-trip");
+app.get("/sls-swingvasion", function (req, res) {
+  res.render("sls-swingvasion");
 });
 
 app.get("/merch", function (req, res) {
